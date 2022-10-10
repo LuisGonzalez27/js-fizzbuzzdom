@@ -10,24 +10,21 @@ for(let i = 1; i <= 100; i++){
         // Stampa FizzBuzz se multiplo di 3 e 5
         console.log("FizzBuzz");
         elementNumb.append("FizzBuzz");
-        container.append(elementNumb);
     }
     else if( i % 3 == 0 ){
         // Stampa Fizz se multipplo di 3
         console.log("Fizz");
         elementNumb.append("Fizz");
-        container.append(elementNumb);
     }
     else if( i % 5 == 0 ){
         // Stampa Buzz se multipplo di 5
         console.log("Buzz");
         elementNumb.append("Buzz");
-        container.append(elementNumb);
     }
     else{
         // se non è multipplo di 3 e 5
         console.log(i);
         elementNumb.append(i);
-        container.append(elementNumb);
     }
+    container.append(elementNumb);
 }
